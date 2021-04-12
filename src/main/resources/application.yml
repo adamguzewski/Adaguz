@@ -1,0 +1,49 @@
+my:
+  custom:
+    property: Hello from application properties
+  myVariable:
+    property: false
+---
+spring:
+  config:
+    activate:
+      on-profile: jaz
+
+my:
+  custom:
+    property: Hello from Jaz
+    random: Some random value
+  myVariable:
+    property: false
+
+---
+spring:
+  config:
+    activate:
+      on-profile: pjatk
+
+my:
+  custom:
+    property: Hello from pjatk
+  myVariable:
+    property: false
+
+---
+spring:
+  config:
+    activate:
+      on-profile: trueProfile
+
+my:
+  myVariable:
+    property: true
+
+---
+spring:
+  config:
+    activate:
+      on-profile: falseProfile
+
+my:
+  myVariable:
+    property: false
