@@ -24,6 +24,6 @@ public class MyFirstComponent {
 //        System.out.println("********************");
 //        System.out.println(valueFromProperties);
 //        System.out.println(randomValueFromJazProperties);
-
+        System.out.println("My First Component");
     }
 }

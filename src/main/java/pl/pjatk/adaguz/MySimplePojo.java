@@ -8,11 +8,11 @@ public class MySimplePojo {
 //        System.out.println("I'm here");
     }
 
-    public String getSomeStringValue() {
-        return someStringValue;
-    }
-
-    public void printOutMe(){
-        System.out.println("Value from MySimplePOJO is: " + someStringValue);
-    }
+//    public String getSomeStringValue() {
+//        return someStringValue;
+//    }
+//
+//    public void printOutMe(){
+//        System.out.println("Value from MySimplePOJO is: " + someStringValue);
+//    }
 }
