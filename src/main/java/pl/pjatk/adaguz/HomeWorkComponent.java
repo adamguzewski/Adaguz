@@ -12,6 +12,7 @@ public class HomeWorkComponent {
 
         System.out.println("-----HOMEWORK-----");
         System.out.println(result);
+        System.out.println(variable);
         System.out.println("-----END OF HOMEWORK-----");
 
     }
