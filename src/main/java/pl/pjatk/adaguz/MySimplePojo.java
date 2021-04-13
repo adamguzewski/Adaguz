@@ -5,7 +5,7 @@ public class MySimplePojo {
 
     public MySimplePojo(String someStringValue) {
         this.someStringValue = someStringValue;
-        System.out.println("I'm here");
+//        System.out.println("I'm here");
     }
 
     public String getSomeStringValue() {

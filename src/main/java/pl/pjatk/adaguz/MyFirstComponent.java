@@ -13,17 +13,17 @@ public class MyFirstComponent {
                             @Value("${my.custom.property}") String valueFromProperties,
                             @Value("${my.custom.random:some default value from @value}")
                                     String randomValueFromJazProperties) {
-        System.out.println("Hello from MyFirstComponent");
-        mySecondComponent.helloFromMethod();
-        mySimplePOJO.printOutMe();
-        System.out.println(defaultData);
-        System.out.println(anotherDefaultData);
-        System.out.println(mySimplePojoList);
-        System.out.println(someInt);
-
-        System.out.println("********************");
-        System.out.println(valueFromProperties);
-        System.out.println(randomValueFromJazProperties);
+//        System.out.println("Hello from MyFirstComponent");
+//        mySecondComponent.helloFromMethod();
+//        mySimplePOJO.printOutMe();
+//        System.out.println(defaultData);
+//        System.out.println(anotherDefaultData);
+//        System.out.println(mySimplePojoList);
+//        System.out.println(someInt);
+//
+//        System.out.println("********************");
+//        System.out.println(valueFromProperties);
+//        System.out.println(randomValueFromJazProperties);
 
     }
 }
