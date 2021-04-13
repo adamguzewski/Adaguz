@@ -10,9 +10,9 @@ import org.springframework.stereotype.Component;
 public class HomeWorkComponent {
     public HomeWorkComponent(String result, @Value("${my.myVariable.property}") boolean variable){
 
-        System.out.println("----HOMEWORK----");
+        System.out.println("-----HOMEWORK-----");
         System.out.println(result);
-        System.out.println("----END OF HOMEWORK----");
+        System.out.println("-----END OF HOMEWORK-----");
 
     }
 }
