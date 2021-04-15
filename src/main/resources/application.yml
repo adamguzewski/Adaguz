@@ -1,4 +1,14 @@
 my:
   custom:
-    property: Hello from application properties
     boolean: false
+    property: false
+
+---
+spring:
+  config:
+    activate:
+      on-profile: homework
+
+my:
+  custom:
+    boolean: true
