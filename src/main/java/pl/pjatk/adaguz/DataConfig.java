@@ -1,5 +1,6 @@
 package pl.pjatk.adaguz;
 
+import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -35,6 +36,10 @@ public class DataConfig {
     }
 
     @Bean
+    @ConditionalOnProperty(
+            value="my.custom.boolean",
+            havingValue="true"
+    )
     public String result(){
         return "Bean has been initialized";
     }
