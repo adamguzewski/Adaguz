@@ -1,8 +1,9 @@
-package pl.pjatk.adaguz;
+package pl.pjatk.adaguz.homework.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import pl.pjatk.adaguz.user.User;
 
 @RestController
 @RequestMapping("/homework")

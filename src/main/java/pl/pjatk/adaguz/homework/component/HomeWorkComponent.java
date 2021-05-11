@@ -1,4 +1,4 @@
-package pl.pjatk.adaguz;
+package pl.pjatk.adaguz.homework.component;
 
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.stereotype.Component;

@@ -1,12 +1,13 @@
-package pl.pjatk.adaguz;
+package pl.pjatk.adaguz.lab3.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import pl.pjatk.adaguz.car.Car;
 
 @RestController
 @RequestMapping("/test")
-public class HelloWorld {
+public class Lab3 {
 
     @GetMapping(value = "/hello")
     ResponseEntity<String> sayHello() {

@@ -1,8 +1,9 @@
-package pl.pjatk.adaguz;
+package pl.pjatk.adaguz.config;
 
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import pl.pjatk.adaguz.MySimplePojo;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package pl.pjatk.adaguz;
+package pl.pjatk.adaguz.car;
 
 public class Car {
     private String make;

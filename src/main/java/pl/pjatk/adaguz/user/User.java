@@ -1,4 +1,4 @@
-package pl.pjatk.adaguz;
+package pl.pjatk.adaguz.user;
 
 public class User {
     private String username;

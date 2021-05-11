@@ -1,7 +1,8 @@
-package pl.pjatk.adaguz;
+package pl.pjatk.adaguz.practicecomponents;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
+import pl.pjatk.adaguz.MySimplePojo;
 
 import java.util.List;
 

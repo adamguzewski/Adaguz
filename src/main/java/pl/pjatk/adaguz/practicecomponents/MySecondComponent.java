@@ -1,4 +1,4 @@
-package pl.pjatk.adaguz;
+package pl.pjatk.adaguz.practicecomponents;
 
 import org.springframework.stereotype.Component;
 
